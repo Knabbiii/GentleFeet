@@ -176,6 +176,7 @@ gradle.properties
 
 # Build outputs that shouldn't be tracked
 !gradle/wrapper/gradle-wrapper.properties
+!gradlew.bat
 
 # Local development environment
 .env
@@ -188,6 +189,3 @@ replay_pid*
 # Temporary plugin testing files
 plugins/GentleFeet*.jar
 test-server/
-SPIGOT_DESCRIPTION.md
-MODRINTH_DESCRIPTION.md
-GITHUB_RELEASE.md
