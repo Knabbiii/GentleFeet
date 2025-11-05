@@ -165,6 +165,29 @@ nbbuild/
 nbdist/
 nbactions.xml
 nb-configuration.xml
+
+# Keep these description files in the repository
 GITHUB_RELEASE.md
-MODRINTH_DESCRIPTION.md
+MODRINTH_DESCRIPTION.md  
 SPIGOT_DESCRIPTION.md
+
+# Gradle daemon and local configuration
+gradle.properties
+
+# Build outputs that shouldn't be tracked
+!gradle/wrapper/gradle-wrapper.properties
+
+# Local development environment
+.env
+.env.local
+.env.*.local
+
+# JVM crash dumps
+replay_pid*
+
+# Temporary plugin testing files
+plugins/GentleFeet*.jar
+test-server/
+SPIGOT_DESCRIPTION.md
+MODRINTH_DESCRIPTION.md
+GITHUB_RELEASE.md

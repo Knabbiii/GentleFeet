@@ -45,7 +45,7 @@ public final class GentleFeet extends JavaPlugin implements Listener {
         
         // Initialize metrics (only if enabled)
         if (Config.enableMetrics) {
-            Metrics metrics = new Metrics(this, 27864);
+            new Metrics(this, 27864);
         }
         
         // Register events
