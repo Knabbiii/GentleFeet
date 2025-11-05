@@ -10,7 +10,7 @@
 
 </div>
 
-> **Gentle steps for gentle farmers - protect your precious crops with style!**
+> **Prevents your tootsies trampling crops, if you are not wearing boots!**
 
 A professional Minecraft plugin that prevents crop trampling through intelligent protection mechanics. Walk barefoot or use enchanted boots - your crops stay safe either way!
 

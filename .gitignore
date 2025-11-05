@@ -166,7 +166,7 @@ nbdist/
 nbactions.xml
 nb-configuration.xml
 
-# Keep these description files in the repository
+# Personal files for Uploading Plugin
 GITHUB_RELEASE.md
 MODRINTH_DESCRIPTION.md  
 SPIGOT_DESCRIPTION.md
