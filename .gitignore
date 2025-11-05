@@ -165,3 +165,6 @@ nbbuild/
 nbdist/
 nbactions.xml
 nb-configuration.xml
+GITHUB_RELEASE.md
+MODRINTH_DESCRIPTION.md
+SPIGOT_DESCRIPTION.md
