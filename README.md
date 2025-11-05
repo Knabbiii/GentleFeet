@@ -5,7 +5,7 @@
 [![Spigot Downloads](https://img.shields.io/spiget/downloads/129991?style=for-the-badge&logo=spigotmc&color=79c10f)](https://www.spigotmc.org/resources/gentlefeet.129991/)
 [![Modrinth Downloads](https://img.shields.io/modrinth/dt/gentlefeet?logo=modrinth&style=for-the-badge&label=Downloads&color=79c10f)](https://modrinth.com/plugin/gentlefeet)
 [![CodeFactor](https://img.shields.io/codefactor/grade/github/knabbiii/gentlefeet?style=for-the-badge&logo=codefactor&color=79c10f&label=Code%20Quality)](https://www.codefactor.io/repository/github/knabbiii/gentlefeet)
-[![License: MIT](https://img.shields.io/github/license/Knabbiii/GentleFeet?color=79c10f&label=License&style=for-the-badge&logo=github)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/github/license/knabbiii/gentlefeet?color=79c10f&label=License&style=for-the-badge&logo=github)](https://opensource.org/licenses/MIT)
 [![GitHub release](https://img.shields.io/github/v/release/knabbiii/gentlefeet?style=for-the-badge&label=Release&color=79c10f&logo=github)](https://github.com/Knabbiii/gentlefeet/releases)
 
 </div>
