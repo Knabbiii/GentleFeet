@@ -1,0 +1,83 @@
+# GentleFeet Configuration
+# Prevents your tootsies trampling crops, if you are not wearing boots!
+# Original concept credit: sammyt291 (FineFeet)
+
+# =====================
+# === PERMISSIONS ===
+# =====================
+
+permissions:
+  # Should the plugin require the player to have the "cropguard.use" permission
+  # for barefoot protection?
+  use-permissions: true
+  
+  # Should the plugin require the player to have the "cropguard.featherfall" permission
+  # to benefit from feather falling crop protection?
+  use-featherfall-permissions: true
+
+# ===========================
+# === FEATHER FALL SETTINGS ===
+# ===========================
+
+feather-falling:
+  # Enable feather falling enchantment crop protection mechanics
+  # When enabled, each level of feather falling provides a percentage chance
+  # to avoid destroying crops when jumping on them
+  enable: true
+  
+  # Percentage chance per feather falling level to avoid crop destruction
+  # For example: 25 means 25% per level (Level IV = 100% protection)
+  # Valid range: 1-100
+  chance-per-level: 25
+  
+  # Maximum feather falling level to consider for crop protection
+  # Levels beyond this will be treated as this maximum
+  # Default: 4 (matches vanilla max enchantment level)
+  max-level: 4
+
+# ========================
+# === BAREFOOT SETTINGS ===
+# ========================
+
+barefoot:
+  # Protect crops when players are not wearing boots (barefoot protection)
+  # This is the original FineFeet functionality
+  enable: false
+
+# ======================
+# === DEBUG SETTINGS ===
+# ======================
+
+debug:
+  # Enable debug messages for troubleshooting
+  # Shows detailed information about crop protection events in console
+  enable: false
+  
+  # Send protection messages to players when crops are protected
+  notify-players: false
+
+# ======================
+# === METRICS SETTINGS ===
+# ======================
+
+metrics:
+  # Enable bStats metrics collection
+  # This helps the developer see how many servers use the plugin
+  # No personal data is collected, only anonymous statistics
+  enable: true
+
+# =======================
+# === MESSAGE SETTINGS ===
+# =======================
+
+messages:
+  # Message sent to players when barefoot protection saves crops
+  # Set to empty string to disable message
+  # Supports color codes with &
+  barefoot-protection: "&7Your gentle steps protected the crops!"
+  
+  # Message sent to players when feather falling protection saves crops
+  # Set to empty string to disable message
+  # Supports color codes with &
+  # {level} will be replaced with the feather falling level
+  featherfall-protection: "&7Your feather falling boots (Level {level}) protected the crops!"

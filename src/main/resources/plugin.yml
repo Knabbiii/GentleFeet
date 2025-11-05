@@ -1,0 +1,36 @@
+name: GentleFeet
+version: '${version}'
+main: dev.knabbiii.gentlefeet.GentleFeet
+api-version: 1.20
+prefix: GentleFeet
+authors: [ knabbiii ]
+description: Prevents your tootsies trampling crops, if you are not wearing boots!
+website: https://github.com/knabbiii/GentleFeet
+
+# Original concept credit: sammyt291 (FineFeet)
+
+commands:
+  gentlefeet:
+    description: Main command for GentleFeet plugin
+    usage: /gentlefeet [reload|set|toggle|info|help]
+    aliases: [gf, gentlefeet]
+    permission: gentlefeet.use
+
+permissions:
+  gentlefeet.use:
+    description: Allows barefoot crop protection
+    default: true
+  gentlefeet.featherfall:
+    description: Allows feather falling crop protection
+    default: true
+  gentlefeet.admin:
+    description: Administrative permissions for GentleFeet
+    default: op
+    children:
+      - gentlefeet.use
+      - gentlefeet.featherfall
+
+softdepend: []
+
+# Supported Minecraft versions: 1.20.0 - 1.21.10
+# Compatible with: Spigot, Paper, Purpur, and all Bukkit forks
